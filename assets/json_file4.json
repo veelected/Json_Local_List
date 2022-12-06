@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "flight_name": "JetBlue-31B",
+  "passengers": [
+    {
+      "id": 1,
+      "check_bags": 11
+    },
+    {
+      "id": 2,
+      "check_bags": 20
+    }
+  ],
+  "other_people": [
+    {
+      "id": 777
+    },
+    {
+      "id": 666
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+// class Three {
+//   int id;
+//   String name;
+//   Property property;
+//
+//   Three({
+//     required this.id,
+//     required this.name,
+//     required this.property,
+//   });
+//
+//   factory Three.fromJson(Map<String, dynamic> json) {
+//     return Three(
+//       id: json["id"],
+//       name: json["name"],
+//       property: Property.fromJson(json['property']),
+//     );
+//   }
+// }
