@@ -1,7 +1,7 @@
 {
   "blades": [
     {
-      "acquisition": "Random",
+      "acquisition": "https://i.ytimg.com/vi/xRPN7Aq4gBU/maxresdefault.jpg",
       "blade": "Finch",
       "element": "Wind",
       "role": "Tank",
@@ -10,7 +10,7 @@
       "weapon": "Shield Hammer"
     },
     {
-      "acquisition": "Random",
+      "acquisition": "https://i.ytimg.com/vi/Bht9qQTlB1E/maxresdefault.jpg",
       "blade": "Perceval",
       "element": "Dark",
       "role": "Tank",
@@ -19,7 +19,7 @@
       "weapon": "Chroma Katana"
     },
     {
-      "acquisition": "Random",
+      "acquisition": "https://i.ytimg.com/vi/H1EZs6CaaOE/maxresdefault.jpg",
       "blade": "Floren",
       "element": "Earth",
       "role": "Healer",
@@ -28,7 +28,7 @@
       "weapon": "Bitball"
     },
     {
-      "acquisition": "Random",
+      "acquisition": "https://i.ytimg.com/vi/VesPNUB2Yfw/maxresdefault.jpg",
       "blade": "Dagas",
       "element": "Fire",
       "role": "Attacker",

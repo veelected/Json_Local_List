@@ -219,13 +219,32 @@ class _MyHomePageState extends State<MyHomePage> {
               return (ListView.builder(
                   itemCount: five.bladeList.length,
                   itemBuilder: (context, index) {
-                    return Card(
-                      child: ListTile(
-                        subtitle: Text('${five.bladeList[index].weapon}\n${five.bladeList[index].acquisition}'),
-                        title: Text(
-                            '$index ${five.bladeList[index].uid.substring(3).toUpperCase()}'),
-                        selectedColor: Colors.red,
-                   ),
+                    var listLength = index + 1;
+                    return Card(margin: const EdgeInsets.all(8),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(6)),
+                      color: Colors.red,
+                      elevation: 5,
+                      child: Column(
+                        children: [
+                          Image.network(five.bladeList[index].acquisition),
+                          ListTile(
+                            trailing: Text(
+                                style: TextStyle(
+                                    fontSize: 30, color: Colors.white),
+                                '$listLength'),
+                            subtitle: Text(
+                                style: TextStyle(
+                                    fontSize: 15, color: Colors.white70),
+                                five.bladeList[index].weapon),
+                            title: Text(
+                                style: TextStyle(
+                                    fontSize: 20, color: Colors.white),
+                                '${five.bladeList[index].uid.substring(3).toUpperCase()}'),
+                            selectedColor: Colors.red,
+                          ),
+                        ],
+                      ),
                     );
                   }));
             }
@@ -235,4 +254,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
